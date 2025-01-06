@@ -9,40 +9,15 @@
 <body>
     <div class="game-container">
         <h1>Number Guessing Game</h1>
-
-        <!-- Difficulty Selection -->
-        <div id="difficulty-selection">
-            <p>Select Difficulty:</p>
-            <input type="radio" id="easy" name="difficulty" value="easy" checked>
-            <label for="easy">Easy (1-50, 10 attempts)</label><br>
-            <input type="radio" id="medium" name="difficulty" value="medium">
-            <label for="medium">Medium (1-100, 7 attempts)</label><br>
-            <input type="radio" id="hard" name="difficulty" value="hard">
-            <label for="hard">Hard (1-200, 5 attempts)</label><br>
-            <button onclick="startNewGame('easy')">Start Game</button>
-        </div>
-
-        <!-- Game Message -->
-        <p id="game-message">Guess a number between 1 and 100</p>
-
-        <!-- User Input -->
+        <p>Guess a number between 1 and 100</p>
         <input type="number" id="user-guess" placeholder="Enter your guess" />
-
-        <!-- Submit Guess Button -->
         <button id="submit-guess">Submit Guess</button>
-
-        <!-- Game Status -->
-        <p id="attempts-left">You have 10 chances left.</p>
-        <p id="previous-guesses">Previous guesses: </p>
-        
-        <!-- Timer -->
-        <p id="timer">Time left: 10s</p>
-
-        <!-- Restart Game Button -->
         <button id="restart-game" style="display:none;">Restart Game</button>
+        <p id="game-message"></p>
+        <p id="attempts-left"></p>
+        <p id="previous-guesses"></p>
     </div>
 
     <script src="game.js"></script>
 </body>
 </html>
-
