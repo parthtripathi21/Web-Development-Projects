@@ -58,3 +58,16 @@
 .nin{
     grid-area: 3/4/5/4;
 }
+
+body{
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
