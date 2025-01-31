@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    margin: 20px auto;
+    gap: 0px;
+    width: 310px;
+    background: linear-gradient(115deg,blue,green,yellow,red);
+    padding: 15px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #f4f4f4;
+    border: 2px solid #ddd;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cell:hover {
+    background-color: burlywood;
+}
+
+.cell.taken {
+    pointer-events: none;
+    background-color: grey;
+}
+
+#status {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    color: #333;
+}
