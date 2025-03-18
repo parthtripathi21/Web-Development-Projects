@@ -1,4 +1,4 @@
 document.getElementById("contact-form").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent page reload
-    alert("Message Sent Successfully!");
+    event.preventDefault(); 
+    alert("You can connect on Linkedin as the backend is not done so I didn't got the message right now.");
 });
