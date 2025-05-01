@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecological Footprint Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Ecological Footprint Calculator</h1>
+    <p style="margin-bottom: 20px;">
+      This tool helps you estimate the environmental impact of your lifestyle choices. Just answer the questions below to get started.
+    </p>
+
+    <form id="footprint-form">
+      <h2>Transportation</h2>
+
+      <label for="car_km">🚗 How many kilometers do you drive per week?</label>
+      <input type="number" id="car_km" name="car_km" required />
+
+      <label for="short_flights">✈️ How many short flights (under 4 hours) do you take per year?</label>
+      <input type="number" id="short_flights" name="short_flights" required />
+
+      <h2>Home Energy Usage</h2>
+
+      <label for="electricity">⚡ Your average monthly electricity usage (in kWh):</label>
+      <input type="number" id="electricity" name="electricity" required />
+
+      <label for="gas">🔥 Your average monthly gas usage (in m³):</label>
+      <input type="number" id="gas" name="gas" required />
+
+      <h2>Diet</h2>
+
+      <label for="diet">🥗 Which of these best describes your diet?</label>
+      <select id="diet" name="diet" required>
+        <option value="">-- Please select --</option>
+        <option value="vegan">Vegan (no animal products)</option>
+        <option value="vegetarian">Vegetarian (no meat, but includes dairy/eggs)</option>
+        <option value="omnivore">Omnivore (includes meat and animal products)</option>
+      </select>
+
+      <h2>Waste & Recycling</h2>
+
+      <label for="recycle">♻️ Do you regularly recycle paper, plastic, or glass?</label>
+      <select id="recycle" name="recycle" required>
+        <option value="">-- Please select --</option>
+        <option value="yes">Yes, I recycle regularly</option>
+        <option value="no">No, I don't recycle</option>
+      </select>
+
+      <button type="submit">Calculate My Footprint</button>
+    </form>
+
+    <div id="result"></div>
+
+    <footer style="margin-top: 40px; font-size: 14px; color: #666; text-align: center;">
+      Made with 🌍 by someone who cares about the planet.
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
