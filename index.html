@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link id="theme-stylesheet" rel="stylesheet" href="style.css">
+    <style>
+        #theme-button{padding:12px 24px;font-size:1rem;color:#fff;background:linear-gradient(45deg,#1f1f1f,#333333);border:2px solid #00bcd4;border-radius:8px;cursor:pointer;text-transform:uppercase;font-weight:600;letter-spacing:1px;transition:all 0.3s ease-in-out;box-shadow:0 5px 15px rgb(0 188 212 / .5);margin:10px}#theme-button:hover{background:linear-gradient(45deg,#00bcd4,#ff4081);color:#121212;transform:translateY(-3px);box-shadow:0 10px 20px rgb(0 188 212 / .7),0 4px 6px rgb(255 64 129 / .3)}#theme-button:active{background:linear-gradient(45deg,#00bcd4,#ff4081);color:#fff;transform:translateY(2px);box-shadow:0 2px 6px rgb(0 188 212 / .3),0 1px 2px rgb(255 64 129 / .5)}
+    </style>
 </head>
 <body>
     <header>
@@ -16,6 +19,7 @@
                 <li><a href="#projects">Projects</a></li>
             </ul>
         </nav>
+        <button id="theme-button">Click only if you like dark mode</button>
     </header>
 
     <section id="about">
@@ -76,5 +80,7 @@
         <p>Connect with me on <a href="https://www.linkedin.com/in/parthtripathi21">LinkedIn</a> | <a href="https://github.com/parthtripathi21">GitHub</a></p>
         &copy; Parth Tripathi
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
