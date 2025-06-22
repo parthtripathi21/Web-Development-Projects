@@ -1,6 +1,6 @@
 This repository contains a collection of small, interactive projects built using HTML, CSS, and JavaScript. Each mini project demonstrates a different web concept or UI interaction, aimed at improving core frontend development skills.
 
-🛠️ Technologies Used
+🛠️ <b>Technologies Used</b>
 
 These projects are built using:
 
