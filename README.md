@@ -3,22 +3,14 @@ This repository contains a collection of small, interactive projects built using
 🛠️ <b>Technologies Used</b>
 
 These projects are built using:
-
 HTML5 – Semantic structure and accessibility
-
 CSS3 – Responsive layouts, Flexbox, Grid, transitions, animations
-
 JavaScript (Vanilla) – DOM manipulation, event handling, and interactivity
-
 
 🎯 Purpose
 
 This portfolio was created to:
-
 Practice core HTML/CSS/JS skills
-
 Explore common UI patterns and user interactions
-
 Create reusable components and layouts
-
 Build clean, responsive, and accessible interfaces
